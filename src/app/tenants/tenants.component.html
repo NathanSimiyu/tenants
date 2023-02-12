@@ -1,0 +1,25 @@
+<app-navbar></app-navbar>
+<h2>Tenant Manager</h2>
+    <p>
+      <button (click)="showAddTenantForm()">Add Tenant</button>
+    </p>
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Email</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let tenant of tenants">
+          <td>{{tenant.name}}</td>
+          <td>{{tenant.email}}</td>
+          <td>
+            <button (click)="editTenant(tenant)">Edit</button>
+            <button (click)="deleteTenant(tenant)">Delete</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+

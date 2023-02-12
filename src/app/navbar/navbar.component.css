@@ -1,0 +1,16 @@
+nav {
+  display: flex;
+  justify-content:first baseline;
+  align-items: center;
+  height: 60px;
+  background-color: #dddddd;
+  padding: 0 20px;
+  margin-top: 1%;
+}
+a {
+  color: #333;
+  text-decoration: none;
+  margin-right: 16px;
+
+}
+

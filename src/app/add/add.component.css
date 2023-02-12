@@ -1,0 +1,39 @@
+form{
+  width: 500px;
+  margin-left: 320px;
+  margin-top: 20px;
+  padding: 50px;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px;
+
+}
+form h3{
+  text-align: center;
+  margin-bottom: 30px;
+
+
+}
+form .form-group{
+  margin-bottom: 20px;
+  margin-left: 50px;
+}
+form .control{
+width: 100%;
+padding: 10px;
+font-size: 16px;
+border-radius: 5px;
+border: 1px solid lightgray;
+}
+.btn{
+  width: 25%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px ;
+  border: none;
+  background-color: lightblue;
+  color: white;
+  cursor: pointer;
+  margin-left: 50px;
+}
+
